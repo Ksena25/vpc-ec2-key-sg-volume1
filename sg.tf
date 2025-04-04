@@ -1,7 +1,7 @@
 
 resource "aws_security_group" "web_server_sg" {
   name        = "web-server-sg"
-  description = "allow web trafficand SSH"
+  description = "allow web traffic and SSH"
   vpc_id      = aws_vpc.vpc1.id
 
  
